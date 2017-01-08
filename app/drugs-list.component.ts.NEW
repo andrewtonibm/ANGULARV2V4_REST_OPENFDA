@@ -1,0 +1,89 @@
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Response } from '@angular/http';
+
+
+import { Drug } from './drug';
+import { DrugsService } from './drugs.service';
+
+
+
+
+
+
+/***************************************
+*
+*
+***************************************/
+@Component({
+  selector: 'drugs-list',
+  template: `
+  <section>
+  
+  
+    <section *ngIf="isLoading && !errorMessage">
+    Loading our hyperdrives!!! Retrieving data...
+    </section>
+  
+  
+      <ul>
+        <!-- this is the new syntax for ng-repeat -->
+        <li *ngFor="let drug of drugs">
+	<a>
+          drug generic name:{{drug.foundGenericName}}
+          </a>
+        </li>
+      </ul>
+  
+  
+      <section *ngIf="errorMessage">
+        {{errorMessage}}
+      </section>
+  
+  </section>
+  
+  <section>
+      <button (click)="gotoSelectReactionList()">Select another REACTION</button>
+  </section>
+  `
+})
+
+
+
+
+export class DrugsListComponent implements OnInit{
+  drugs: Drug[] = [];
+  errorMessage: string = '';
+  isLoading: boolean = true;
+
+
+  constructor(private peopleService: PeopleService,
+                private route: ActivatedRoute,
+                private router: Router){
+    }
+
+  ngOnInit(){
+  
+         this.sub = this.route.params.subscribe(params => {
+
+          let id = Number.parseInt(params['id']); 
+
+          let myString = params['fuck']; 
+	  
+          console.log('getting person with id: ', id);
+          console.log('getting person with myString: ', xyz);
+
+  
+			//========Query getALL the drugs=============
+			this.drugsService.getAll().subscribe(p => this.drugs = p, e => this.errorMessage = e,() => this.isLoading = false);
+	 
+	 
+         });
+  }
+  
+  //##########################################
+  gotoSelectReactionList(){
+        let link = ['/reactions'];
+        this.router.navigate(link);
+  }
+}
