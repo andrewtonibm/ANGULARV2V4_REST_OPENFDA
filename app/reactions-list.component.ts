@@ -9,6 +9,7 @@ import { Drug } from './drug';
 import { DrugsService } from './drugs.service';
 
 //Author Andrew Ton, v1
+//AndrewTToise change 1
 //##############################################################
 @Component({
 	selector: 'reactions-list',
