@@ -8,7 +8,7 @@ import { ReactionsService } from './reactions.service';
 import { Drug } from './drug';
 import { DrugsService } from './drugs.service';
 
-
+//Author Andrew Ton, v1
 //##############################################################
 @Component({
 	selector: 'reactions-list',
@@ -188,7 +188,7 @@ export class ReactionsListComponent implements OnInit {
 			.subscribe(p => this.drugs = p,
 			e => this.errorMessage = e,
 			() => this.isLoading = false);
-
+  }
 
 
 	onChangeEvent2(reactionInput2: string) {
