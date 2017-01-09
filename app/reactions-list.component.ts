@@ -8,9 +8,8 @@ import { ReactionsService } from './reactions.service';
 import { Drug } from './drug';
 import { DrugsService } from './drugs.service';
 
-//Author Andrew Ton, v1
-//AndrewCommand change 1
-//AndrewCOmmand change 2 (TWO!!!)
+//AndrewCOmmand change 2 (TWO!!!), AndrewTToise change 1, AndrewCommand change 1
+
 //##############################################################
 @Component({
 	selector: 'reactions-list',
