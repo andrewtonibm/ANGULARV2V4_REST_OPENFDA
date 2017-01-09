@@ -10,6 +10,7 @@ import { DrugsService } from './drugs.service';
 
 //Author Andrew Ton, v1
 //AndrewCommand change 1
+//AndrewCOmmand change 2 (TWO!!!)
 //##############################################################
 @Component({
 	selector: 'reactions-list',
