@@ -3,9 +3,10 @@ Note from Andrew Ton, author:
 First thing you want to watch this video, it give you demo and main overview of the code:  https://www.youtube.com/watch?v=rXkzfQWvPaw
  
 Brief Summary of main steps
-1) Git fetch the code
-2) ionic serve --lab
-3) http://localhost:8100/ionic-lab
+1) git init
+2) git fetch https://github.com/andrewtonibm/OpenFDA4reactions.git
+3) npm install  
+4) npm start
 
 
 =============================================================
