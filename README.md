@@ -7,6 +7,8 @@ Brief Summary of main steps
 2) git pull https://github.com/andrewtonibm/OpenFDA4reactions.git
 3) npm install  
 4) npm start
+5) http://localhost:3000/reactions
+6) use 3 drop down and select various reactions from each drop down
 
 
 =============================================================
