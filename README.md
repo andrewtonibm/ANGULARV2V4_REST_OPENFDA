@@ -4,7 +4,7 @@ First thing you want to watch this video, it give you demo and main overview of 
  
 Brief Summary of main steps
 1) git init
-2) git fetch https://github.com/andrewtonibm/OpenFDA4reactions.git
+2) git pull https://github.com/andrewtonibm/OpenFDA4reactions.git
 3) npm install  
 4) npm start
 
