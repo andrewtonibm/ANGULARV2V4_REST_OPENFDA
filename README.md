@@ -1,3 +1,15 @@
+Note from Andrew Ton, author:
+
+First thing you want to watch this video, it give you demo and main overview of the code:  https://www.youtube.com/watch?v=rXkzfQWvPaw
+ 
+Brief Summary of main steps
+1) Git fetch the code
+2) ionic serve --lab
+3) http://localhost:8100/ionic-lab
+
+
+=============================================================
+
 # Angular 2 QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
