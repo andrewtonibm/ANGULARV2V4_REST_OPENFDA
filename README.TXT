@@ -1,6 +1,6 @@
 Note from Andrew Ton, author:
 
-First thing you want to watch this video, it give you demo and main overview of the code: https://www.youtube.com/watch?v=rXkzfQWvPaw
+First thing you want to read the requirement Documnent "Angular20GovOpenFDAChallenge_5.pdf" for requirement, from washDC
 
 Brief Summary of main steps
 
