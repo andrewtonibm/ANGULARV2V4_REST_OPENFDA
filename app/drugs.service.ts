@@ -102,6 +102,7 @@ function mapDrugs(response: Response): Drug[] {
 
   var noDuplicatedDrugArray = new Array();
 
+  /*
   var mapIter = drugArrayMap.values();
   for (var i = 0; i < drugArrayMap.size; i++) {
 
@@ -115,9 +116,20 @@ function mapDrugs(response: Response): Drug[] {
     } catch (err) {
       continue;
     }
-
-
   }; //for
+  */
+
+ let keys = Array.from( drugArrayMap.keys() );
+  
+  for (let currentKey of keys) {
+
+      let currentItemValue = drugArrayMap.get(currentKey);
+      console.log(currentItemValue);
+      if (!(noDuplicatedDrugArray.includes(currentItemValue))) {
+        console.log("Adding:"+currentItemValue);
+        noDuplicatedDrugArray.push(currentItemValue);
+      }
+  }
 
 
   noDuplicatedDrugArray.sort(function(a, b) {
