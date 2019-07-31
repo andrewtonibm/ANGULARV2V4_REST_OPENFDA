@@ -1,7 +1,8 @@
 ALTER 1
 ALTER 2
-================================
 
+=======
+## v1 ##
 Note from Andrew Ton, author:
 
 SEE this YOUTUBE VIDEO for my short video demo: https://youtu.be/BUQGhhqxdwI
