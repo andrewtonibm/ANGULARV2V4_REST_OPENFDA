@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 ALTER 1
 ALTER 2
 
 =======
 ## v1 ##
+=======
+## v2 ##
+>>>>>>> 1d8fb766e6213877fccd027a529b1217d3c874b4
 Note from Andrew Ton, author:
 
 SEE this YOUTUBE VIDEO for my short video demo: https://youtu.be/BUQGhhqxdwI
